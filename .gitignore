@@ -1,0 +1,58 @@
+# ============================================
+# ДОПОЛНИТЕЛЬНО ДЛЯ OTP SERVICE ПРОЕКТА
+# ============================================
+
+# Конфигурационные файлы с паролями
+.env
+!.env.example
+
+# Логи приложения
+*.log
+otp_codes.log
+
+# Временные файлы
+*.tmp
+*.bak
+
+# Gradle wrapper (оставляем только jar)
+!gradle/wrapper/gradle-wrapper.jar
+/gradle/wrapper/gradle-wrapper.properties
+
+# Зависимости Gradle
+.gradle/
+build/
+
+# Файлы IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+out/
+
+# Файлы Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# Файлы NetBeans
+nbproject/
+nb-configuration.xml
+
+# Файлы VS Code
+.vscode/
+.history/
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ошибки
+hs_err_pid*.loggit
